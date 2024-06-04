@@ -1,4 +1,4 @@
-const movies = [
+export const movies = [
   {
     title: "Avatar",
     year: "2009",
@@ -176,5 +176,3 @@ const movies = [
     imdbVotes: "N/A",
   },
 ];
-
-export default movies;
