@@ -1,0 +1,54 @@
+.movie-list-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-list-header {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.MovieSection {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.Movie {
+  display: flex;
+  background-color: #ffffff;
+  height: 250px;
+  box-shadow: 0px 4px 40px rgba(63, 58, 58, 0.25);
+  border-radius: 10px;
+  padding: 18px 14px 18px 14px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.Info {
+  margin-left: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Type {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.TypeInfo {
+  background-color: #eaac99;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 0px 10px;
+  margin-left: 10px;
+}
